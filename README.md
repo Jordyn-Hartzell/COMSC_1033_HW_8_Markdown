@@ -182,6 +182,53 @@ Your final score is: 120/11110
 Better luck next time!
 ```
 ### Command Prompt
+This project was done previously and I was happy with my work, so the process for this was just a series of adds and commits to copy the text over.
+
+I added and commited the files that I had updated.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git add .*
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git commit -m "Updated the re
+adme file"*
+[master 3895dec] Updated the readme file
+ 3 files changed, 260 insertions(+), 6 deletions(-)
+```
+I pushed the changes to the remote repository.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git push*
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jordyn-hartzell
+Password for 'https://jordyn-hartzell@github.com':
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.86 KiB | 0 bytes/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+To https://github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
+   6343a71..3895dec  master -> master
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>
+```
 
 # Code: Random Character Program
 
@@ -190,24 +237,24 @@ Better luck next time!
 ### Command Prompt
 I started by navigating to the project within my workspace on my thumb drive.
 ```
-E:\Jordyn_CS1_Workspace>cd Jordyn_Hartzell_Homework_8
+E:\Jordyn_CS1_Workspace>*cd Jordyn_Hartzell_Homework_8*
 ```
 Here I started using the Github commands to synchronize the local and remote repositories.
 ```
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>echo # COMSC_1033_HW_8_Markdo
-wn >> README.md
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*echo # COMSC_1033_HW_8_Markdo
+wn >> README.md*
 ```
 This next commands creates the initial repository.
 ```
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git init
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git init*
 Initialized empty Git repository in E:/Jordyn_CS1_Workspace/Jordyn_Hartzell_Home
 work_8/.git/
 ```
 I added the files to be saved and commited to the changes, but I had not configured my user information yet.
 ```
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git add .
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git add .*
 
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git commit -m "First commit"
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git commit -m "First commit"*
 
 *** Please tell me who you are.
 
@@ -223,15 +270,15 @@ fatal: unable to auto-detect email address (got 'Jordyn@Home-Laptop.(none)')
 ```
 I configured my user information.
 ```
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git config user.email "hartze
-llj@student.swosu.edu"
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git config user.email "hartze
+llj@student.swosu.edu"*
 
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git config user.name "Jordyn
-Hartzell"
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git config user.name "Jordyn
+Hartzell"*
 ```
-I tried to commit again, and this time it worked.
+I tried to commit again with no issues this time.
 ```
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git commit -m "first commit"
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git commit -m "first commit"*
 [master (root-commit) 6343a71] first commit
  5 files changed, 36 insertions(+)
  create mode 100644 .classpath
@@ -242,10 +289,10 @@ E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git commit -m "first commit"
 ```
 These two steps finally synched up the local and remote repositories.
 ```
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git remote add origin https:/
-/github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git remote add origin https:/
+/github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git*
 
-E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push -u origin master
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>*git push -u origin master*
 Username for 'https://github.com': jordyn-hartzell
 Password for 'https://jordyn-hartzell@github.com':
 Counting objects: 9, done.
@@ -256,5 +303,8 @@ Total 9 (delta 0), reused 0 (delta 0)
 To https://github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
-```
+
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>
+```
+
+# Summary

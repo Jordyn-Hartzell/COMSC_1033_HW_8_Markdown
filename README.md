@@ -1,7 +1,7 @@
 # COMSC_1033_HW_8_Markdown 
 
 ## Introduction
-
+The first program listed is a multi-feature addition game. It has a point system, increasing or decreasing difficulty, and differing output messages based on how the user performed. This program was from a previous assignment, but I converted it to the markdown format for this assignment. 
 # Code: Addition Game
 ```java
 /*
@@ -84,7 +84,7 @@ import java.util.Scanner;
 ```
 
 ## Console
-This is an example of what will run when all answers are correct.
+This is an example of what will run when all answers are correct. The difficulty increases with each question and an increasing amount of points are awarded.
 ```java
 Welcome to the addition quiz!
 Please input integers only.

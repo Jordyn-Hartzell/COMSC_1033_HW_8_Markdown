@@ -2,7 +2,7 @@
 
 ## Introduction
 
-# Code
+# Code: Addition Game
 ```java
 /*
  * This program will quiz the
@@ -311,7 +311,7 @@ At this point I decided I needed to work from a new branch to avoid cluttering m
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git checkout -b dev
 Switched to a new branch 'dev'
 ```
-I used the push command to prompt the specific command I needed to allow the remote repository to track the new branch.
+I used the push command to prompt the specific message I needed to allow the remote repository to track the new branch.
 ```
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push
 warning: push.default is unset; its implicit value has changed in
@@ -341,7 +341,7 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin dev
 
 ```
-I used the new git push message and my new branch was ready to work from.
+I used the new git push message and my dev branch was ready to work from.
 ```
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push --set-upstream origi
 n dev

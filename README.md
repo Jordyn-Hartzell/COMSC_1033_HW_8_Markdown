@@ -306,5 +306,52 @@ Branch master set up to track remote branch master from origin.
 
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>
 ```
+At this point I decided I needed to work from a new branch to avoid cluttering my master branch so I created a new branch.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git checkout -b dev
+Switched to a new branch 'dev'
+```
+I used the push command to prompt the specific command I needed to allow the remote repository to track the new branch.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
 
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch dev has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev
+
+```
+I used the new git push message and my new branch was ready to work from.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push --set-upstream origi
+n dev
+Username for 'https://github.com': jordyn-hartzell
+Password for 'https://jordyn-hartzell@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
+ * [new branch]      dev -> dev
+Branch dev set up to track remote branch dev from origin.
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>
+```
 # Summary

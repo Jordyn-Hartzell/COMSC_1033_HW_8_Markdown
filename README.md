@@ -1,7 +1,7 @@
 # COMSC_1033_HW_8_Markdown 
 
 ## Introduction
-The first program listed is a multi-feature addition game. It has a point system, increasing or decreasing difficulty, and differing output messages based on how the user performed. This program was from a previous assignment, but I converted it to markdown for this week. The second assignment is a random character generator. It generates a random uppercase letter.
+The programs in this report are both designed to randomly generate characters. The first program is an addition game that asks the user to add two random numbers. The second program will display a randomly generated upper case letter. 
 # Code: Addition Game
 ```java
 /*
@@ -231,9 +231,47 @@ E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>
 ```
 
 # Code: Random Character Program
+```java
+/*
+ * This program will generate a random
+ * uppercase letter.
+ */
+public class Random_Char_Project {
+	public static void main(String[] args) {
+		
+		// Establish limits
+		int startingNumber = 65;
+		int endingNumber   = 90 - 65 + 1;
+		
+		// Generate random number
+		int randomNumber = (int)(startingNumber + Math.random() * endingNumber);
+	
+		// Output random number as a letter
+		System.out.println(randomNumber + " is your random number.");
+		System.out.print("Therefore, your letter is " + (char)randomNumber + ".");
 
+	}
+
+}
+```
 ## Console
+Several examples of outputs:
+```
+75 is your random number.
+Therefore, your letter is K.
 
+90 is your random number.
+Therefore, your letter is Z.
+
+77 is your random number.
+Therefore, your letter is M.
+
+82 is your random number.
+Therefore, your letter is R.
+
+65 is your random number.
+Therefore, your letter is A.
+```
 ### Command Prompt
 I started by navigating to the project within my workspace on my thumb drive.
 ```

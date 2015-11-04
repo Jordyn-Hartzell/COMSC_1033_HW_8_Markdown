@@ -1,3 +1,7 @@
+/*
+ * This program will generate a random
+ * uppercase letter.
+ */
 public class Random_Char_Project {
 	public static void main(String[] args) {
 		

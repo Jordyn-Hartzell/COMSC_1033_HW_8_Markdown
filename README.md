@@ -1,7 +1,7 @@
 # COMSC_1033_HW_8_Markdown 
 
 ## Introduction
-The first program listed is a multi-feature addition game. It has a point system, increasing or decreasing difficulty, and differing output messages based on how the user performed. This program was from a previous assignment, but I converted it to the markdown format for this assignment. 
+The first program listed is a multi-feature addition game. It has a point system, increasing or decreasing difficulty, and differing output messages based on how the user performed. This program was from a previous assignment, but I converted it to markdown for this week.
 # Code: Addition Game
 ```java
 /*

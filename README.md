@@ -1,7 +1,27 @@
-# COMSC_1033_HW_8_Markdown 
-
+# Homework 8: Markdown 
+##### COMSC-1033 Sec. 1411, Jordyn Hartzell, HW 8 
 ## Introduction
-The programs in this report are both designed to randomly generate characters. The first program is an addition game that asks the user to add two random numbers. The second program will display a randomly generated upper case letter. 
+The programs in this report are both designed to randomly generate characters. The first program is an addition game that asks the user to add two random numbers. The second program will display a randomly generated upper case letter.
+## Outline
+### Addition Game
+```java
+// Set up loop for four rounds
+// Generate two random numbers
+// Prompt user to add numbers
+// If correct
+	// Increase difficulty
+	// Award Points
+// If incorrect
+	// Display the correct answer
+	// Decrease difficulty
+	// Award no points
+// Output final score at the end
+```
+### Random Letter Generator
+```java
+// Generate random number using Math.random
+// Output generated number as a letter
+```
 # Code: Addition Game
 ```java
 /*

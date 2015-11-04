@@ -1,7 +1,7 @@
 # COMSC_1033_HW_8_Markdown 
 
 ## Introduction
-The first program listed is a multi-feature addition game. It has a point system, increasing or decreasing difficulty, and differing output messages based on how the user performed. This program was from a previous assignment, but I converted it to markdown for this week.
+The first program listed is a multi-feature addition game. It has a point system, increasing or decreasing difficulty, and differing output messages based on how the user performed. This program was from a previous assignment, but I converted it to markdown for this week. The second assignment is a random character generator. It generates a random uppercase letter.
 # Code: Addition Game
 ```java
 /*
@@ -341,7 +341,7 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin dev
 
 ```
-I used the new git push message and my dev branch was ready to work from.
+I used the new git push message and my dev branch was ready to go.
 ```
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push --set-upstream origi
 n dev
@@ -353,5 +353,101 @@ To https://github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
 Branch dev set up to track remote branch dev from origin.
 
 E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>
+```
+I incrementally saved changes along the way.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git add .
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git commit -m "Added variable
+s and formula for random letter"
+[dev ffaeaf1] Added variables and formula for random letter
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jordyn-hartzell
+Password for 'https://jordyn-hartzell@github.com':
+Counting objects: 6, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.29 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+To https://github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
+   ff1a89a..ffaeaf1  dev -> dev
+```
+After I was happy with my working code, I switched back to my master branch.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+```
+Finally, I merged the working code into my master branch.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git merge dev
+Updating 06a561b..ffaeaf1
+Fast-forward
+ README.md                     |  53 +++++++++++++++++++++++++++++++++++++++---
+ bin/Random_Char_Project.class | Bin 400 -> 1087 bytes
+ src/Random_Char_Project.java  |  12 +++++++++-
+ 3 files changed, 61 insertions(+), 4 deletions(-)
+```
+I did one final add, commit, and push to complete add the working code to the master branch on the remote repository.
+```
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git add .
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git commit -m "Merging dev ch
+anges into master"
+On branch master
+Your branch is ahead of 'origin/master' by 8 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_8>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jordyn-hartzell
+Password for 'https://jordyn-hartzell@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Jordyn-Hartzell/COMSC_1033_HW_8_Markdown.git
+   06a561b..ffaeaf1  master -> master
 ```
 # Summary

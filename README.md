@@ -22,6 +22,16 @@ The programs in this report are both designed to randomly generate characters. T
 // Generate random number using Math.random
 // Output generated number as a letter
 ```
+## References
+```java
+// Liang Java 10th edition. Pg 122, 4.2.5.
+// a + Math.random() * b
+// This gives a random number between a and a + b without returning a + b.
+
+// Liang Java 10th edition. Pg 125, Table 4.4
+// ASCII codes for uppercase letters
+// 65 - 90 is A - Z
+```
 # Code: Addition Game
 ```java
 /*
